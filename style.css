@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height: 95px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+hr{
+    opacity: 0.4;
+}
+
+#header_hb{
+    color: rgba(248, 54, 20, 0.918);
+    font-size: 1.55rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: -2px;
+    /* justify-content: center; */
+    /* position: relative;
+    top: 32%;
+    left: 1.6%; */
+    margin-left: 28px;
+    margin-top: 37px;
+}
+.header_center{
+    display: inline-block;
+    /* position: relative;
+    left: 48.5%;
+    top: 30%;
+    transform: translate(-50%); */
+    margin: auto;
+    margin-left: 32%;
+    margin-top: 37px;
+    /* margin-right: 25%; */
+    width: 550px; 
+}
+
+.header_mavi{
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(76, 114, 238, 0.77);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 18px;
+    
+}
+.teslim{
+    margin-right: 1.6rem;
+    margin-left: 1.8rem;
+    
+}
+.odeme{
+    margin-right: 6rem;
+}
+#header_hizli_al{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(2, 57, 240, 0.774);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -1px;
+    border: 1px solid rgba(2, 57, 240, 0.671);
+    padding: 6px 23px;
+    border-radius: 20px;  
+}
+.header_name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    /* position: relative; */
+    float: right;
+    /* right: 2%; */
+    /* top: 30%; */
+    margin-top: 28px;
+    margin-right: 28px;
+    background-color: rgba(178, 180, 176, 0.336);
+    padding: 12px;
+    border-radius: 100%;
+    font-weight: 700;
+}
+#container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+#section_up{
+    /* position: relative;
+    top: 2.4rem;
+    left: 18%; */
+    /* width: 65%; */
+    margin: auto;
+    margin-top: 2.4rem;
+    /* margin-left: 18%; */
+}
+aside{
+    float: right;
+    width: 200px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: auto;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.aside_up{
+    padding: 15px 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#asideh6,#asideh1{
+    padding-bottom: 10px;
+}
+#asideh1,#asideh3{
+    display: inline-block;
+}
+#sip_onay{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(145,145,145);
+    background-color: rgb(204,204,204);
+    padding: 13px 19px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 1.6rem;
+}
+.asidep{
+    font-size: 0.75rem;
+    letter-spacing: -0.03rem;
+    line-height: 1.5;
+    margin-top: 1.1rem;
+    margin-bottom: 2rem;
+    font-weight: 200;
+}
+
+.kargo{
+    font-size: 0.75rem;
+    letter-spacing: -0.03rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: rgb(145,145,145);
+    margin-bottom: 10px;
+    /* display: inline; */
+    /* text-align: justify; */
+}
+._left{
+    width: 5px;
+    float: left;
+}
+._right{
+    width: 45px;
+    float: right;
+}
+#kamp{
+    padding-top: 50px;
+}
+#secili{
+    width: 60px;
+    font-size: 0.80rem;
+    letter-spacing: -0.03rem;
+    line-height: 1.5;
+    color: rgb(77, 77, 77);
+
+}
+#teslimat{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 1.6rem;
+}
+.tes_opt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    letter-spacing: -0.5px;
+    height: auto;
+    width: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 11px;
+    background-color: rgb(247, 242, 242);
+    margin-bottom: 1.6rem;
+
+}
+.kayitli{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 770;
+    padding: 0.65rem 1rem;
+    border-radius: 11px;
+    margin: 3px;
+}
+.h_mat:focus,.kayitli:focus{
+    background-color: white;
+
+}
+.h_mat{
+    padding: 0.65rem 1rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    border-radius: 11px;
+    margin: 3px;
+}
+.no_underline{
+    text-decoration: none;
+}
+.sub_title_orange{
+    color: rgba(248, 54, 20, 0.918);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    display: inline;
+}
+
+.adresler > div{
+    margin-top: 1.6rem;
+    margin-right: 1.6rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: inline-block;
+    width: 203px;
+    min-width: 203px;
+    height: 142px;
+}
+.duzen{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: -0.5px;
+    float: right;
+    padding: 10px;
+}
+#ok{
+    float: left;
+    margin-top: -5px;
+    margin-left: -2px;
+    background-color: rgba(49, 89, 223, 0.77);
+    color: white;
+    font-size: larger;
+}
+
+.add_title{
+    padding-left: 20px;
+    margin-top: 40px;
+    font-size: 1rem;
+    letter-spacing: 0.6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.address{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+.adres1{
+    outline: 5px solid rgba(49, 89, 223, 0.77);
+}
+
+#odemeYont{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.75);
+    
+    display: inline;
+}
+.krediKarti{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.kartBilgileri{
+    display: block;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.3px;
+}
+.hucre{
+    height: 48px;
+    width: 27rem;
+    padding-left: 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(247, 242, 242);
+    margin-bottom: 3rem;
+    display: block;
+    border: 0;
+}
+:placeholder-shown{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+#kartNo:placeholder-shown{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+}
+#SKT,#secNum{
+    width: 12.5rem;
+}
+#sec{
+    display: inline-block;
+}
+#skt{
+    display: inline-block;
+    
+}
+
+#asidep{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.7px;
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
